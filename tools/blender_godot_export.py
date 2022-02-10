@@ -6,6 +6,8 @@
 # Ignore collections with "ignore_"-prefix in name
 # e.g. "ignore_area0_env"
 
+# Warning: This will overwrite files without asking.
+
 import bpy
 import os
 from pathlib import Path
